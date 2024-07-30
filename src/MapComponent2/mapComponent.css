@@ -1,0 +1,54 @@
+#popup {
+    position: absolute;
+    bottom: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    min-width: 280px;
+    min-height: 100px;
+}
+
+#popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    content: "✖";
+}
+
+#searchBar {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: white;
+    width: 180px;
+    height: 3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+#resetButton {
+    position: absolute;
+    top: 10%;
+    left: 0.5%;
+    background-color: white;
+    width: 90px;
+    border-radius: 1rem;
+}
+
+button {
+    width: 100%;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid #015fcc;
+}
